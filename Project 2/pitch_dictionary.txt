@@ -1,0 +1,80 @@
+ab_id
+
+at-bat ID. Matches up with atbats.csv
+ax
+ay
+az
+b_count
+
+balls in the current count
+b_score
+
+score for the batter's team
+break_angle
+break_length
+break_y
+code
+
+Records the result of the pitch. See dataset description for list of codes and their meaning
+end_speed
+
+Speed of the pitch when it reaches the plate
+nasty
+on_1b
+
+True if there's a runner on first, False if empty
+on_2b
+
+True if there's a runner on second, False if empty
+on_3b
+
+I don't know
+outs
+
+number of outs (before pitch is thrown)
+pfx_x
+pfx_z
+pitch_num
+
+pitch number (of at-bat)
+pitch_type
+
+Type of pitch. See dataset description for list of pitch types
+px
+
+x-location as pitch crosses the plate. X=0 means right down the middle
+pz
+
+z-location as pitch crosses the plate. Z=0 means the ground
+s_count
+
+strikes in the current count
+spin_dir
+
+Direction in which pitch is spinning, measured in degrees
+spin_rate
+
+The pitch's spin rate, measure in RPM
+start_speed
+
+Speed of the pitch just as it's thrown
+sz_bot
+sz_top
+type
+
+Simplified code, S (strike) B (ball) or X (in play)
+type_confidence
+
+Confidence in pitch_type classification. Goes up to 2 for some reason.
+vx0
+vy0
+vz0
+x
+x0
+y
+y0
+z0
+zone
+pitches.csv (784.97 MB)
+20 of 39 columns
+Views
